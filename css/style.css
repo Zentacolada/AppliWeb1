@@ -1,22 +1,23 @@
 body {
-	fontfamily : arial
-	background color : black;
+	font-family : arial
+	background-color : black;
 }
 
 h1{
-	font size :20px;
+	font-size :20px;
 }
 
 .p1{
-	background color : light blue;
+	background-color : light blue;
 }
 .p2{
-	background color : white;
+	background-color : white;
 }
 .p3{
-	background color : light red;
+	background-color : light red;
 }
-.calais{
+
+#calais{
 	width : 500px;
 	height : 500px;
 }
