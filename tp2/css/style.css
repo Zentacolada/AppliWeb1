@@ -1,0 +1,40 @@
+body {
+	font-family : arial;
+	color: black;
+}
+
+h1{
+	font-family : verdana;
+	font-size :20px;
+	color: darkblue;
+	text-align:center;
+}
+
+.p1{
+	background-color : lightblue;
+}
+.p2{
+	background-color : lightgreen;
+}
+.p3{
+	background-color : darkred;
+	color:white;
+}
+
+
+#calais{
+	margin-left:25%;
+}
+h2{
+	font-family : verdana;
+	text-align:center;
+}
+
+form{
+	display:block;
+	text-align:center;
+	border-style:dotted;
+	border-color:red;
+	border-width:5px 5px 5px 5px;
+	border-radius:5px;
+}
