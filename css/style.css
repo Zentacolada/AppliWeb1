@@ -4,21 +4,37 @@ body {
 }
 
 h1{
+	font-family : verdana;
 	font-size :20px;
-	color: blue;
+	color: darkblue;
+	text-align:center;
 }
 
 .p1{
-	background-color : blue;
+	background-color : lightblue;
 }
 .p2{
-	background-color : white;
+	background-color : lightgreen;
 }
 .p3{
-	background-color : red;
+	background-color : darkred;
+	color:white;
 }
 
 
 #calais{
 	margin-left:25%;
+}
+h2{
+	font-family : verdana;
+	text-align:center;
+}
+
+form{
+	display:block;
+	text-align:center;
+	border-style:dotted;
+	border-color:red;
+	border-width:5px 5px 5px 5px;
+	border-radius:5px;
 }
