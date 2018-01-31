@@ -1,3 +1,4 @@
+
 body {
 	font-family : arial;
 	color: black;
@@ -22,8 +23,11 @@ h1{
 }
 
 
-#calais{
-	margin-left:25%;
+div.imgcalais #calais{
+	display:block;
+	margin:auto;
+	height:500px;
+	width:500px;
 }
 h2{
 	font-family : verdana;
@@ -39,7 +43,36 @@ form{
 	border-radius:5px;
 }
 
-@media votre requete ici {
-    
+@media (min-width:768px) and (max-width:979px) {
+
+div.imgcalais #calais{
+	display:block;
+	margin:auto;
+	height:400px;
+	width:400px;
+}
+
+
+}
+
+@media (min-width:481px) and (max-width:767px) {
+div.imgcalais #calais{
+	display:block;
+	margin:auto;
+	height:250px;
+	width:250px;
+}
+
+}
+
+@media	(max-width:480px) {
+div.imgcalais #calais{
+	display:block;
+	margin:auto;
+	height:100px;
+	width:100px;
+}
+
+
 }
 
