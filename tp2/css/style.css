@@ -52,8 +52,8 @@ form{
 
 @media (min-width:768px) and (max-width:979px) {
     form{
-        height:auto;
-        width:auto;
+        height:25%;
+        width:25%;
     }
 
     div.imgcalais #calais{
@@ -66,8 +66,8 @@ form{
 
 @media (min-width:481px) and (max-width:767px) {
     form{
-        height:auto;
-        width:auto;
+        height:25%;
+        width:25%;
     }
     div.imgcalais #calais{
         display:block;
@@ -79,8 +79,8 @@ form{
 
 @media	(max-width:480px) {
     form{
-        height:auto;
-        width:auto;
+        height:25%;
+        width:25%;
     }
     div.imgcalais #calais{
         display:block;
