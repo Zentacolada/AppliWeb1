@@ -21,7 +21,14 @@ h1{
 	background-color : darkred;
 	color:white;
 }
-
+table
+{
+    border-collapse: collapse;
+}
+td, th /* Mettre une bordure sur les td et les th */
+{
+    border: 1px solid black;
+}
 
 div.imgcalais #calais{
 	display:block;
