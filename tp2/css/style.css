@@ -2,6 +2,7 @@
 body {
 	font-family : arial;
 	color: black;
+    margin:auto;
 }
 strong{
     font-size:1.5em;
@@ -9,14 +10,14 @@ strong{
 /*----------------------Titres--------------*/
 h1{
 	font-family : verdana;
-	font-size :3em;
+	font-size :4em;
 	color: darkblue;
 	text-align:center;
 }
 h2{
 	font-family : verdana;
 	text-align:center;
-    font-size:3em;
+    font-size:2em;
 }
 /*----------------------Paragraphes--------------*/
 .p1{
@@ -39,29 +40,118 @@ div.imgcalais #calais{
 /*----------------------Tableaux--------------*/
 table
 {
+    margin:auto;
+    margin-bottom: 30px;
+    margin-top:30px;
     border-collapse: collapse;
 }
 td, th 
 {
     border: 1px solid black;
 }
+th{
+    background-color:greenyellow;
+}
 
 
 /*----------------------Formulaires--------------*/
-
-
+form{
+	text-align:center;
+	border-style:ridge;
+	border-color:red;
+    width:50%;
+    height:50%;
+    padding:25px;
+    margin:auto;
+}
+input{
+    width:100%;
+}
 
 
 /*----------------MQ------------*/
+@media screen and (max-width: 500px) {
 
-@media all and (max-width: 500px)
-{
-    p{
-        color: red; 
-        background-color: black;
-        font-size: 1.2em;
+/*----------------------Général--------------*/
+    body {
+        position:absolute;
     }
+/*----------------------Titres--------------*/
+    h1{
+        font-size :3em;
+    }
+    h2{
+        font-size:2em;
+    }
+    h3{
+        font-size:1.5em;
+    }
+    
+/*----------------------Paragraphes--------------*/
+.p1{
+    font-size:1.5em;
 }
+.p2{
+    font-size:1.5em;
+}
+.p3{
+    font-size:1.5em;
+}
+    /*----------------------Tableaux--------------*/
+table
+{
+    display:grid;
+    margin-left:30%;
+    margin-right:30%;
+    margin-top:10%;
+    margin-bottom:10%;
+}
+td, th 
+{
+    display:grid;
+}
+/*----------------------Formulaires--------------*/
+    form{
+        text-align:center;
+        border-style:ridge;
+        border-color:red;
+        width:75%;
+        height:75%;
+        margin:auto;
+    }
+    div.prenom input{
+        font-size:25px;
+        width:300px;
+        height:50px;
+        margin:auto;
+    }
+    div.date input{
+        font-size:25px;
+        width:300px;
+        height:50px;
+        margin:auto;
+    }
+    div.email input{
+        font-size:25px;
+        width:300px;
+        height:50px;
+        margin:auto;
+    }
+    div.tel input{
+        font-size:25px;
+        width:300px;
+        height:50px;
+        margin:auto;
+    }
+    div.url input{
+        font-size:25px;
+        width:300px;
+        height:50px;
+        margin:auto;
+    }
 
+
+
+}
 
 
