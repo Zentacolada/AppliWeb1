@@ -1,17 +1,25 @@
 /*----------------------Général--------------*/
+.{
+    font-family : verdana;
+}
+header{
+    padding-bottom:10px;
+}
 body {
-	font-family : arial;
+
 	color: black;
     margin:auto;
+
 }
-strong{
-    font-size:1.5em;
+footer{
+    padding:10px;
+    text-align:center;
 }
 /*----------------------Titres--------------*/
 h1{
 	font-family : verdana;
 	font-size :4em;
-	color: darkblue;
+	color: greenyellow;
 	text-align:center;
 }
 h2{
@@ -37,6 +45,11 @@ div.imgcalais #calais{
 	height:500px;
 	width:500px;
 }
+div.logoiut #iut{
+    width:300px;
+    display:block;
+    margin:auto;
+}
 /*----------------------Tableaux--------------*/
 table
 {
@@ -50,15 +63,19 @@ td, th
     border: 1px solid black;
 }
 th{
+    color:black;
     background-color:greenyellow;
 }
 
 
 /*----------------------Formulaires--------------*/
 form{
+    color:white;
+    background-image:url('../img/bg.jpg');
+    background-size:contain;
 	text-align:center;
 	border-style:ridge;
-	border-color:red;
+	border-color:greenyellow;
     width:50%;
     height:50%;
     padding:25px;
@@ -75,6 +92,7 @@ input{
 /*----------------------Général--------------*/
     body {
         position:absolute;
+        background-size:500px 500px;
     }
 /*----------------------Titres--------------*/
     h1{
@@ -114,7 +132,7 @@ td, th
     form{
         text-align:center;
         border-style:ridge;
-        border-color:red;
+        border-color:greenyellow;
         width:75%;
         height:75%;
         margin:auto;
