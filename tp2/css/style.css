@@ -1,5 +1,5 @@
 /*----------------------Général--------------*/
-.{
+*{
     font-family : verdana;
 }
 header{
@@ -13,6 +13,7 @@ footer{
     padding:10px;
     text-align:center;
 }
+
 /*----------------------Titres--------------*/
 h1{
 	font-family : verdana;
