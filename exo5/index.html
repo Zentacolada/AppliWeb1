@@ -25,57 +25,81 @@
     <div class="unada">
         <img  id="unada" alt="Logo de l'UNADA" src="img/unada.png"/>
     </div>
-     <h2>Présentation du club</h2>
-     <p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.  </p>
-     
-      <div class="grpphoto">
-        <li class="photo1">
-            <img  id="photo1" alt="Logo de frethun" src="img/logo_frethun.jpg"/>
-            <h2>Photo1</h2>
-            <p>Photo 1</p>
-        </li>
-        <li class="photo2">
-            <img  id="photo2" alt="Logo de fethun" src="img/logo_frethun.jpg"/>
-            <h2>Photo2</h2>
-            <p>Photo 2</p>
-        </li>
-        <li class="photo3">
-            <img  id="photo3" alt="Logo de frethun" src="img/logo_frethun.jpg"/>
-            <h2>Photo3</h2>
-            <p>Photo 3</p>
-        </li>
-        <li class="photo4">
-            <img  id="photo4" alt="Logo de frethun" src="img/logo_frethun.jpg"/>
-            <h2>Photo4</h2>
-            <p>Photo 4</p>
-        </li>
-    </div>
-     
-     <div class="grossediv">
-         <div class="map">
+        <div class="contenu">
+         <h2>Présentation du club</h2>
+         <p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.  </p>
 
-            <h2>Se repérer</h2>
+          <div class="grpphoto">
+            <li class="photo1">
+                <img  id="photo1" alt="Logo de frethun" src="img/logo_frethun.jpg"/>
+                <h2>Photo1</h2>
+                <p>Photo 1</p>
+            </li>
+            <li class="photo2">
+                <img  id="photo2" alt="Logo de fethun" src="img/logo_frethun.jpg"/>
+                <h2>Photo2</h2>
+                <p>Photo 2</p>
+            </li>
+            <li class="photo3">
+                <img  id="photo3" alt="Logo de frethun" src="img/logo_frethun.jpg"/>
+                <h2>Photo3</h2>
+                <p>Photo 3</p>
+            </li>
+            <li class="photo4">
+                <img  id="photo4" alt="Logo de frethun" src="img/logo_frethun.jpg"/>
+                <h2>Photo4</h2>
+                <p>Photo 4</p>
+            </li>
+        </div>
+ 
+        
+         <div class="grossediv">
 
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1381.6123566046224!2d1.8139360022639843!3d50.91153390232262!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47dc392da9896d23%3A0x270371a2e8adf843!2sGymnase+Ren%C3%A9+Hochart!5e0!3m2!1sfr!2sfr!4v1520867949322" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+             <div class="map">
+                <div id="reper">
+                    <h2 id="reperage">Se repérer</h2>
+                 </div>
+                <iframe id="googlemaps"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1381.6123566046224!2d1.8139360022639843!3d50.91153390232262!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47dc392da9896d23%3A0x270371a2e8adf843!2sGymnase+Ren%C3%A9+Hochart!5e0!3m2!1sfr!2sfr!4v1520867949322"  frameborder="0" style="border:0" allowfullscreen></iframe>
 
-         </div>
+             </div>
 
-         <div class="formu">
-                <form>
-                    <input type="text" name="prenom" placeholder="Prenom"/>
-                    <input type="text" name="nom" placeholder="Nom"/>
-                    <input type="date" name="naissance" placeholder="Date de naissance"/>
-                    <input type="vnaissance" name="vnaissance" placeholder="Ville de naissance"/>		
-                    <input type="photo" name="photo" placeholder="Photo"/>
-                    <input type="message" name="message" placeholder="Message"/>
-               </form>
+             
+             <div class="formu">
+                    <div id="inscri">
+                        <h2 id="inscription">Inscription</h2>
+                    </div>
+                    <form>
+                        <div class="nomination">
+                            <input id="prenom"type="text" name="prenom" placeholder="Prenom"/>
+                            <input id="nom" type="text" name="nom" placeholder="Nom"/>
+                        </div>
+                        <br>
+                        <div class="naissance">
+                            <input id="date"type="date" name="naissance" placeholder="Date de naissance"/>
+                            <input id="vnaissance"type="vnaissance" name="vnaissance" placeholder="Ville de naissance"/>
+                        </div>
+                        <br>
+                        <div class="mail">
+                            <input id="mail" name="mail" placeholder="Adresse mail"/>
+                        </div>
+                        <br>
+                        <div class="photo">
+                            <input type="file" name="photo" placeholder="Photo"/>
+                        </div>
+                        <br>
+                        <div class="boite">
+                            <textarea id="texte" placeholder="Exprimez-vous…"></textarea>
+                            <input id="bouton" type="button" value="Envoyer" />
+                        </div>
 
-         </div>
-         
-    </div>
-     
+                   </form>
+
+             </div>
+
+        </div>
+     </div>
  </body>
 <footer>
-    <p>DEMARET Antoine TPA</p>
+    <p id="foot">DEMARET Antoine TPA</p>
 </footer>
 </html>

@@ -2,9 +2,6 @@
 *{
     font-family: Helvetica;
 }
-header{
-    
-}
 body {
 	color: black;
     margin:auto;
@@ -13,6 +10,13 @@ body {
 footer{
     border-top: 3px ridge darkred;
     text-align:right;
+}
+#foot{
+    width: 99%;
+}
+div.contenu{
+    margin-left:0.5%;
+    margin-right:0.5%;
 }
 p{
     width:100%;
@@ -111,23 +115,145 @@ div.unada {
 }
 
 div.map{
-    margin-right: 40em;
+    float: left;
     border-right: 0.2em black solid;
+    display: inline-block;
+    margin:auto;
+    width: 48%;
+    height: 600px;
+    text-align: center;
+}
+label {
+display:block;
+width:1.5em;
+float:left;
+}
+#googlemaps{
+    width:90%;
+    height:80%;
+    margin-left: 2em;
+}
+/*------------------formulaire--------*/
+div.envoyer{
+    float:right;
+}
+div.nomination{
+    margin:auto;
+}
+form{
+	display:inline-block;
+	text-align:center;
+    margin:auto;
+    width:100%;
+}
+div.formu{
+    width:48%;
+    float:right;
+    display: inline-block;
+    margin:auto;
+    text-align: center;
+}
+div.boite{
+    width: 100%;
+    height: 100%;
+    display:block;
 }
 
-form{
-	display:block;
-	text-align:center;
-	border-style:ridge;
-	border-color:black;
-	border-width:2px 2px 2px 2px;
-	border-radius:5px;
+#prenom{
+    margin-right: 5em;
+    width:14em;
 }
+#nom{
+    width:14em;
+}
+#date{
+    margin-right: 5em;
+    width:14em;
+}
+#vnaissance{
+    width:14em;
+}
+#mail{
+    display: block;
+    color: gray;
+    width: 100%;
+    height: 2em;
+    border: 1px solid grey;
+    overflow: hidden;
+}
+#texte{
+    display: block;
+    color: gray;
+    width: 100%;
+    height: 3em;
+    border: 1px solid grey;
+    overflow: hidden;
+}
+
+#bouton{
+    display: block;
+    width: 100%;
+}
+
 div.grossediv{
     display: inline-block;
+    margin: auto;
+    width:100%;
 }
 /*---------------MQ------------*/
 
+@media screen and (max-width:1200px) {
+/*------------------formulaire------------*/
+
+    #prenom{
+        font-size:25px;
+        width:80%;
+        height:30px;
+        margin:auto;
+    }
+    #nom{
+        font-size:25px;
+        width:80%;
+        height:30px;
+        margin:auto;
+    }
+    #vnaissance{
+        font-size:25px;
+        width:80%;
+        height:30px;
+        margin:auto;
+    }
+    #texte{
+        font-size:25px;
+        width:80%;
+        height:50px;
+        margin:auto;
+    }
+    #bouton{
+        font-size:25px;
+        width:80%;
+        height:30px;
+        margin: auto;
+    }
+    #date{
+        font-size:25px;
+        width:80%;
+        height:30px;
+        margin:auto;
+    }
+    #mail{
+        font-size:25px;
+        width:80%;
+        height:50px;
+        margin:auto;
+    }
+    #boite{
+        font-size:25px;
+        width:80%;
+        height:30px;
+        margin:auto;
+    }
+}
 @media screen and (max-width: 450px) {
     
 /*---------------General----------*/
@@ -135,9 +261,15 @@ div.grossediv{
         font-size:2em;
     }
     h2{
-        font-size:1.5;
+        font-size:1.5em;
+        text-align: center;
     }
-
+    div.contenu{
+        width:100%;
+    }   
+    #foot{
+        width: 100%;
+    }
 /*---------------Images-----------*/
 
     div.unada {
@@ -167,4 +299,85 @@ div.grossediv{
         padding-bottom: 6px;
         border:none;
     }
+/*------------------MAPS------------*/
+    div.map{
+        float: left;
+        border: none;
+        width:100%;
+        margin-bottom: 10%;
+    }
+    #googlemaps{
+        margin: 1em;
+        width:95%;
+        height:95%;
+    }
+
+
+/*------------------formulaire------------*/
+    div.formu{
+        width:100%;
+    }
+    form{
+        display: inline-block;
+        width:100%;
+        text-align: center;
+    }
+    div.envoyer{
+        float:none;
+    }
+    div.naissance{
+        width:100%;
+    }
+    div.nomination{
+        width:100%;
+    }
+    #prenom{
+        font-size:25px;
+        width:80%;
+        height:30px;
+        margin:auto;
+    }
+    #nom{
+        font-size:25px;
+        width:80%;
+        height:30px;
+        margin:auto;
+    }
+    #vnaissance{
+        font-size:25px;
+        width:80%;
+        height:30px;
+        margin:auto;
+    }
+    #texte{
+        font-size:25px;
+        width:80%;
+        height:50px;
+        margin:auto;
+    }
+    #bouton{
+        font-size:25px;
+        width:80%;
+        height:30px;
+        margin: auto;
+    }
+    #date{
+        font-size:25px;
+        width:80%;
+        height:30px;
+        margin:auto;
+    }
+    #mail{
+        font-size:25px;
+        width:80%;
+        height:50px;
+        margin:auto;
+    }
+    #boite{
+        font-size:25px;
+        width:80%;
+        height:30px;
+        margin:auto;
+    }
+    
 }
