@@ -118,7 +118,6 @@ div.map{
     float: left;
     border-right: 0.2em black solid;
     display: inline-block;
-    margin:auto;
     width: 48%;
     height: 600px;
     text-align: center;
@@ -128,10 +127,11 @@ display:block;
 width:1.5em;
 float:left;
 }
-#googlemaps{
-    width:90%;
+
+iframe#googlemaps{
+    margin: auto;
+    width:80%;
     height:80%;
-    margin-left: 2em;
 }
 /*------------------formulaire--------*/
 div.envoyer{

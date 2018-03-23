@@ -1,0 +1,383 @@
+/*----------------------Général--------------*/
+*{
+    font-family: Helvetica;
+}
+body {
+	color: black;
+    margin:auto;
+    width:100%;
+}
+footer{
+    border-top: 3px ridge darkred;
+    text-align:right;
+}
+#foot{
+    width: 99%;
+}
+div.contenu{
+    margin-left:0.5%;
+    margin-right:0.5%;
+}
+p{
+    width:100%;
+}
+h1{
+    font-size:3em;
+    color:whitesmoke;
+}
+h2{
+    font-size:2em;
+}
+
+/*--------------Menu---------------*/
+.menu {                             /*ajout de la bande en fond*/
+    overflow: hidden;
+    background-color: darkred;
+    display:block;
+}
+div.menu #fleur{
+    width:75px;
+    height: 75px;
+}
+
+.menu a {/* Style des 3 liens du menu */
+    border-left: 1px ridge whitesmoke;
+    float:right;
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+/* Change la couleur des liens au survol */
+.menu a:hover {
+    background-color: #ddd;
+    color: black;
+}
+/* Style dans la barre de recherche */
+.menu input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+}
+div.menu .fleur #fleur{ /*logo en haut a gauche*/
+    float:left;
+    margin-left:5px;
+}
+div.menu .fleur h1{ /*titre*/
+    text-align: center;
+    padding-bottom: 25px;
+    margin-bottom: 5px;
+    border-bottom: 1px ridge whitesmoke;
+}
+/*--------------Images-------------*/
+div.logotake #take{
+    height:100px;
+    width:100px;
+}
+div.grpphoto{  /*grp de photo du paragraphe 1*/
+    text-align: center;
+}
+
+div.grpphoto li{
+    display: inline-block;
+}
+div.grpphoto #photo1{
+    display: inline-block;
+    margin: 20px;
+    width:50%;
+}
+div.grpphoto #photo2{
+    display: inline-block;
+    margin: 20px;
+    width:50%;
+}
+div.grpphoto #photo3{
+    display: inline-block;
+    margin: 20px;
+    width:50%;
+}
+div.grpphoto #photo4{
+    display: inline-block;
+    margin: 20px;
+    width:50%;
+}
+
+div.unada {
+    display:block;
+    padding-top:25px;
+    text-align: center;
+    margin: auto;  
+}
+
+div.map{
+    float: left;
+    border-right: 0.2em black solid;
+    display: inline-block;
+    margin:auto;
+    width: 48%;
+    height: 600px;
+    text-align: center;
+}
+label {
+display:block;
+width:1.5em;
+float:left;
+}
+#googlemaps{
+    width:90%;
+    height:80%;
+    margin-left: 2em;
+}
+/*------------------formulaire--------*/
+div.envoyer{
+    float:right;
+}
+div.nomination{
+    margin:auto;
+}
+form{
+	display:inline-block;
+	text-align:center;
+    margin:auto;
+    width:100%;
+}
+div.formu{
+    width:48%;
+    float:right;
+    display: inline-block;
+    margin:auto;
+    text-align: center;
+}
+div.boite{
+    width: 100%;
+    height: 100%;
+    display:block;
+}
+
+#prenom{
+    margin-right: 5em;
+    width:14em;
+}
+#nom{
+    width:14em;
+}
+#date{
+    margin-right: 5em;
+    width:14em;
+}
+#vnaissance{
+    width:14em;
+}
+#mail{
+    display: block;
+    color: gray;
+    width: 100%;
+    height: 2em;
+    border: 1px solid grey;
+    overflow: hidden;
+}
+#texte{
+    display: block;
+    color: gray;
+    width: 100%;
+    height: 3em;
+    border: 1px solid grey;
+    overflow: hidden;
+}
+
+#bouton{
+    display: block;
+    width: 100%;
+}
+
+div.grossediv{
+    display: inline-block;
+    margin: auto;
+    width:100%;
+}
+/*---------------MQ------------*/
+
+@media screen and (max-width:1200px) {
+/*------------------formulaire------------*/
+
+    #prenom{
+        font-size:25px;
+        width:80%;
+        height:30px;
+        margin:auto;
+    }
+    #nom{
+        font-size:25px;
+        width:80%;
+        height:30px;
+        margin:auto;
+    }
+    #vnaissance{
+        font-size:25px;
+        width:80%;
+        height:30px;
+        margin:auto;
+    }
+    #texte{
+        font-size:25px;
+        width:80%;
+        height:50px;
+        margin:auto;
+    }
+    #bouton{
+        font-size:25px;
+        width:80%;
+        height:30px;
+        margin: auto;
+    }
+    #date{
+        font-size:25px;
+        width:80%;
+        height:30px;
+        margin:auto;
+    }
+    #mail{
+        font-size:25px;
+        width:80%;
+        height:50px;
+        margin:auto;
+    }
+    #boite{
+        font-size:25px;
+        width:80%;
+        height:30px;
+        margin:auto;
+    }
+}
+@media screen and (max-width: 450px) {
+    
+/*---------------General----------*/
+    h1{
+        font-size:2em;
+    }
+    h2{
+        font-size:1.5em;
+        text-align: center;
+    }
+    div.contenu{
+        width:100%;
+    }   
+    #foot{
+        width: 100%;
+    }
+/*---------------Images-----------*/
+
+    div.unada {
+        width:100%;
+    }
+    div.unada #unada{
+        width:100%;
+    }
+    div.grpphoto{
+        display: inline-block;
+    }
+/*---------------Menu-------------*/
+    .menu a, .menu input[type=text] {
+        text-align: center;
+        width: 100%;
+        margin:auto;
+        padding: 14px;
+        border-top: 1px ridge whitesmoke;
+    }
+    .menu input[type=text] {
+        border: 2px 2px 2px 2px;
+        border-style:ridge;
+        border-color:black;
+        box-sizing:border-box;
+    }
+    div.menu .fleur h1{
+        padding-bottom: 6px;
+        border:none;
+    }
+/*------------------MAPS------------*/
+    div.map{
+        float: left;
+        border: none;
+        width:100%;
+        margin-bottom: 10%;
+    }
+    #googlemaps{
+        margin: 1em;
+        width:95%;
+        height:95%;
+    }
+
+
+/*------------------formulaire------------*/
+    div.formu{
+        width:100%;
+    }
+    form{
+        display: inline-block;
+        width:100%;
+        text-align: center;
+    }
+    div.envoyer{
+        float:none;
+    }
+    div.naissance{
+        width:100%;
+    }
+    div.nomination{
+        width:100%;
+    }
+    #prenom{
+        font-size:25px;
+        width:80%;
+        height:30px;
+        margin:auto;
+    }
+    #nom{
+        font-size:25px;
+        width:80%;
+        height:30px;
+        margin:auto;
+    }
+    #vnaissance{
+        font-size:25px;
+        width:80%;
+        height:30px;
+        margin:auto;
+    }
+    #texte{
+        font-size:25px;
+        width:80%;
+        height:50px;
+        margin:auto;
+    }
+    #bouton{
+        font-size:25px;
+        width:80%;
+        height:30px;
+        margin: auto;
+    }
+    #date{
+        font-size:25px;
+        width:80%;
+        height:30px;
+        margin:auto;
+    }
+    #mail{
+        font-size:25px;
+        width:80%;
+        height:50px;
+        margin:auto;
+    }
+    #boite{
+        font-size:25px;
+        width:80%;
+        height:30px;
+        margin:auto;
+    }
+    
+}
